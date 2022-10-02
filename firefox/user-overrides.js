@@ -58,6 +58,9 @@ user_pref("browser.compactmode.show", true);
 // about:home Search Bar - 89 Above
 user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false);
 
+// CSS's `:has()` selector #457 - 103 Above
+user_pref("layout.css.has-selector.enabled", true);
+
 // Browser Theme Based Scheme - Will be activate 95 Above
 // user_pref("layout.css.prefers-color-scheme.content-override", 3);
 
@@ -99,7 +102,7 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userChrome.compatibility.dynamic_separator",    true); // Need dynamic_seperator
 
 // user_pref("userChrome.compatiblity.os.linux_non_native_titlebar_button", true);
-// user_pref("userChrome.compatibility.os.windows_maximized, true");
+// user_pref("userChrome.compatibility.os.windows_maximized", true);
 
 // == Theme Custom Settings ====================================================
 // -- User Chrome --------------------------------------------------------------
@@ -114,20 +117,21 @@ user_pref("userChrome.decoration.disable_sidebar_animate",  true);
 // user_pref("userChrome.autohide.tab.blur",                   true);
 // user_pref("userChrome.autohide.tabbar",                     true);
 // user_pref("userChrome.autohide.navbar",                     true);
-user_pref("userChrome.autohide.bookmarkbar",                true);
-user_pref("userChrome.autohide.sidebar",                    true);
+// user_pref("userChrome.autohide.bookmarkbar",                true);
+// user_pref("userChrome.autohide.sidebar",                    true);
 // user_pref("userChrome.autohide.fill_urlbar",                true);
 // user_pref("userChrome.autohide.back_button",                true);
 // user_pref("userChrome.autohide.forward_button",             true);
 // user_pref("userChrome.autohide.page_action",                true);
 // user_pref("userChrome.autohide.toolbar_overlap",            true);
+// user_pref("userChrome.autohide.toolbar_overlap.allow_layout_shift", true);
 
 // user_pref("userChrome.hidden.tab_icon",                     true);
 // user_pref("userChrome.hidden.tab_icon.always",              true);
-// user_pref("userChrome.hidden.tabbar",                       true);
+user_pref("userChrome.hidden.tabbar",                       true);
 // user_pref("userChrome.hidden.navbar",                       true);
 user_pref("userChrome.hidden.sidebar_header",               true);
-// user_pref("userChrome.hidden.sidebar_header.vertical_tab_only", true);
+user_pref("userChrome.hidden.sidebar_header.vertical_tab_only", true);
 // user_pref("userChrome.hidden.urlbar_iconbox",               true);
 // user_pref("userChrome.hidden.bookmarkbar_icon",             true);
 // user_pref("userChrome.hidden.bookmarkbar_label",            true);
@@ -135,7 +139,7 @@ user_pref("userChrome.hidden.disabled_menu",                true);
 
 // user_pref("userChrome.centered.tab",                        true);
 // user_pref("userChrome.centered.tab.label",                  true);
-user_pref("userChrome.centered.urlbar",                     true);
+// user_pref("userChrome.centered.urlbar",                     true);
 // user_pref("userChrome.centered.bookmarkbar",                true);
 
 // user_pref("userChrome.rounding.square_button",              true);
@@ -160,7 +164,7 @@ user_pref("userChrome.centered.urlbar",                     true);
 // user_pref("userChrome.urlView.go_button_when_typing",       true);
 // user_pref("userChrome.urlView.always_show_page_actions",    true);
 
-user_pref("userChrome.tabbar.as_titlebar",                  true);
+// user_pref("userChrome.tabbar.as_titlebar",                  true);
 // user_pref("userChrome.tabbar.on_bottom",                    true);
 // user_pref("userChrome.tabbar.on_bottom.above_bookmark",     true); // Need on_bottom
 // user_pref("userChrome.tabbar.on_bottom.menubar_on_top",     true); // Need on_bottom
@@ -181,7 +185,7 @@ user_pref("userChrome.tabbar.as_titlebar",                  true);
 // user_pref("userChrome.panel.full_width_separator",          true);
 // user_pref("userChrome.panel.full_width_padding",            true);
 
-user_pref("userChrome.sidebar.overlap",                     true);
+// user_pref("userChrome.sidebar.overlap",                     true);
 
 // user_pref("userChrome.icon.account_image_to_right",         true);
 // user_pref("userChrome.icon.account_label_to_right",         true);
