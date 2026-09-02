@@ -1,0 +1,123 @@
+{
+  "blacklist": "",
+  "blockColor": "default",
+  "blockWholeSite": true,
+  "dialogTheme": "default",
+  "enableMatchingRules": true,
+  "hideBlockLinks": false,
+  "hideControl": false,
+  "highlightColors": [
+    "#66bbff40"
+  ],
+  "linkColor": "default",
+  "serpInfoSettings": {
+    "user": {
+      "content": "name: My SERPINFO\npages: []\n"
+    },
+    "remote": [
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/google.yml",
+        "custom": false,
+        "enabled": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/bing.yml",
+        "custom": false,
+        "enabled": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/brave.yml",
+        "custom": false,
+        "enabled": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/duckduckgo.yml",
+        "custom": false,
+        "enabled": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/ecosia.yml",
+        "custom": false,
+        "enabled": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/kagi.yml",
+        "custom": false,
+        "enabled": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/searxng.yml",
+        "custom": false,
+        "enabled": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/startpage.yml",
+        "custom": false,
+        "enabled": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/yahoo-japan.yml",
+        "custom": false,
+        "enabled": false
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/yandex.yml",
+        "custom": false,
+        "enabled": false
+      }
+    ]
+  },
+  "skipBlockDialog": false,
+  "subscriptions": [
+    {
+      "name": "Super-SEO-Spam-Suppressor",
+      "url": "https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/ublacklist.txt",
+      "type": "ruleset",
+      "enabled": true
+    },
+    {
+      "name": "uBlacklist GitHub Translation",
+      "url": "https://raw.githubusercontent.com/arosh/ublacklist-github-translation/master/uBlacklist.txt",
+      "type": "ruleset",
+      "enabled": true
+    },
+    {
+      "name": "uBlacklist Stack Overflow Translation",
+      "url": "https://raw.githubusercontent.com/arosh/ublacklist-stackoverflow-translation/master/uBlacklist.txt",
+      "type": "ruleset",
+      "enabled": true
+    },
+    {
+      "name": "Content Farms",
+      "url": "https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt",
+      "type": "ruleset",
+      "enabled": true
+    },
+    {
+      "name": "FMHY Filter List",
+      "url": "https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist-wildcard-urls.txt",
+      "type": "ruleset",
+      "enabled": true
+    },
+    {
+      "name": "uBlockOrigin & uBlacklist Huge AI Blocklist",
+      "url": "https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist.txt",
+      "type": "ruleset",
+      "enabled": true
+    },
+    {
+      "name": "TMW BL wikifarms.all",
+      "url": "https://raw.githubusercontent.com/codeshell/blocklists/main/by-format/ublacklist/wikifarms.all.txt",
+      "type": "ruleset",
+      "enabled": true
+    }
+  ],
+  "syncAppearance": true,
+  "syncBlocklist": true,
+  "syncGeneral": true,
+  "syncInterval": 15,
+  "syncSerpInfo": true,
+  "syncSubscriptions": true,
+  "updateInterval": 1440,
+  "version": "10.0.3"
+}

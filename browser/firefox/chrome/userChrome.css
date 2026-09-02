@@ -1,0 +1,9 @@
+/** Import Lepton stylesheet (Chrome) *****************************************/
+@import url("lepton/css/leptonChrome.css");
+
+
+/** Add your custom styles below **********************************************/
+
+@import url("mods/chrome/hideAlwaysOpenInContainer.css");
+@import url("mods/chrome/hideStatusBarInFullscreen.css");
+@import url("mods/chrome/sideberyAutoHideTabs.css");

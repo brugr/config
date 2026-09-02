@@ -1,0 +1,8 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+    .logo-and-wordmark-wrapper,
+    .logo-and-wordmark,
+    .wordmark,
+    .logo {
+        display: none !important;
+    }
+}   
