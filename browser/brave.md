@@ -65,8 +65,6 @@ First follow [Privacy Guides recommended settings](https://www.privacyguides.org
 
 ## Flags `brave://flags`
 
-* V8 Jitless mode | `brave://flags/#brave-v8-jitless-mode` | Enabled  
-*Will only be applied to websites that **aren't allowed** to use the V8 Javascript engine* `brave://settings/content/v8`
 * Brave News prompt on New Tab Page | `brave://flags/#brave-news-peek` | **Disabled**
 * Brave Tree Tab | `brave://flags/#brave-tree-tab` | Enabled  
 *Also needs to be enabled inside **Settings > Tabs > Use vertical tabs > Use tree tabs***
